@@ -1,0 +1,1 @@
+export function Marquee({children,reverse=false,className=''}){return <div className={`marquee-vertical ${reverse?'marquee-reverse':''} ${className}`}>{[0,1].map(i=><div className="marquee-group" key={i} aria-hidden={i===1}>{children}</div>)}</div>}

@@ -1,0 +1,1 @@
+The page has temporary images already installed. Change their paths in src/data/media.js when you add your own approved images here. Suggested hero image: 1400x1800, mentor photo: 1400x1200, section/card photos: 900x1100. JPEG or WebP is recommended. The video ID and poster can also be changed in src/data/media.js.
